@@ -2,6 +2,10 @@
     - .php_cs.cache
     - .php_cs
     - .php_cs.dist
-.idea
+.idea/
+    - .idea
+    - .idea/*
+    - .idea/
+    - .ide
 .vscode
 .gitignore

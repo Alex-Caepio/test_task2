@@ -40,12 +40,12 @@ class SignatureNote implements Signature
         <p>С Уважением,</p>
         <p>' . $this->name . '</p>
         <p>Тел:</p>
-        <p><a style="color: ' . $this->color . '; text-decoration: none;" href="tel: +375291234567"> ' . $this->formatPhoneOne() . ' </a></p>
-        <p><a style="color: ' . $this->color . '; text-decoration: none;" href="tel: +375297654321"> ' . $this->formatPhoneTwo() . '</a></p>
+        <p><a style="color: ' . $this->color . '; text-decoration: none;" href="tel: ' . $this->phoneOne . '"> ' . $this->formatPhoneOne() . ' </a></p>
+        <p><a style="color: ' . $this->color . '; text-decoration: none;" href="tel: ' . $this->phoneTwo . '"> ' . $this->formatPhoneTwo() . '</a></p>
         <br>
         <p>E-Mail:</p>
-        <p><a style="color: ' . $this->color . '; text-decoration: none" href="mailto: mjbcaepio@gmail.com"> ' . $this->emailOne . ' </a></p>
-        <p><a style="color: ' . $this->color . '; text-decoration: none" href="mailto: caepioman@gmail.com"> ' . $this->emailTwo . '</a></p>
+        <p><a style="color: ' . $this->color . '; text-decoration: none" href="mailto: ' . $this->emailOne . '"> ' . $this->emailOne . ' </a></p>
+        <p><a style="color: ' . $this->color . '; text-decoration: none" href="mailto: ' . $this->emailTwo . '"> ' . $this->emailTwo . '</a></p>
         <br>
         <br>
         </div>';
